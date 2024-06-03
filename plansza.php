@@ -138,7 +138,7 @@
 // Podświetlenie jednostek wybranego ID
         while($row=mysqli_fetch_row($rezultat2)){
             echo "<script>";
-            echo "document.getElementById('blok_".$row[3]."_".$row[4]."').style.backgroundColor='red';";
+            echo "document.getElementById('blok_".$row[4]."_".$row[3]."').style.backgroundColor='red';";
             echo "</script>";
         }
 
